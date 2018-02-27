@@ -31,6 +31,7 @@ class Song
   def self.genre_count
     @@genres.each do |category|
       value = category.count
+      @@genre_count[category] = value
 end
 end
 end
