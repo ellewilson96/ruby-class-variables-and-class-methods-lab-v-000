@@ -30,3 +30,4 @@ class Song
       new_hash[category] = value
 end
 end
+end
