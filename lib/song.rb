@@ -28,5 +28,5 @@ class Song
       value = category.count
       new_hash = {}
       new_hash[category] = value
-
+end
 end
